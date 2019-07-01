@@ -1,0 +1,71 @@
+.ban{
+  padding: 20rpx;
+}
+.ban-item {
+  height: 160rpx;
+}
+.ban-item image {
+    width: 144rpx;
+    height: 104rpx;
+    margin-bottom: 20rpx;
+}
+.ban-item text{
+  font-size: 12px;
+  text-align: center;
+}
+swiper{
+  height:180rpx;
+  width: 680rpx;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+swiper-item image{
+  width: 680rpx;
+  height:180rpx;
+  mode:aspectFill;
+
+  
+}
+.tool{
+  padding: 30rpx;
+}
+.tool-box{
+  padding: 20rpx 10rpx;
+}
+.tool-item image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.tool-item text{
+  font-size: 12px;
+}
+.low{
+  padding: 30rpx;
+}
+.low-item{
+ margin-right: 10rpx;
+}
+.low-item image{
+  width: 220rpx;
+  height: 200rpx;
+
+}
+.activ{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+
+}
+.activ image{
+  width: 680rpx;
+  height:180rpx;
+  border-radius: 10rpx;
+}
+.code{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 150rpx;
+  height: 150rpx;
+}

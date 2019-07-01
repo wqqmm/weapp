@@ -1,0 +1,59 @@
+.flex-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-item{
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.title-text{
+  font-size: 14px;
+  font-weight: bold;
+}
+.while{
+  background-color: #fff;
+}
+/* 用于做间隔的类 */
+.divider {
+    height: 20rpx;
+    background-color: #f1f1f1;
+    box-shadow: 0 5rpx 5rpx rgba(0, 0, 0, 0.1) inset;
+}
+/* 箭头 */
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow::after {
+    content: "";
+    width: 15rpx;
+    height: 15rpx;
+    border-top: 3rpx solid #ccc;
+    border-right: 3rpx solid #ccc;
+    transform: rotate(45deg);
+}
+/* 超出部分用省略号隐藏 */
+.ell{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.ell2{
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 20px;
+}
+/* 去除链接默认样式 */
+.navigator-hover {
+ background-color: rgba(0, 0, 0, 0);
+ opacity: 1;
+}

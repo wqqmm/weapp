@@ -1,0 +1,82 @@
+<view class="ban flex-box">
+ <navigator class='ban-item flex-item' url='/pages/hotel/hotel?title=酒店列表&id=1'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/I2LDgp0mJRHOPCYyTYfhS9zdK3kiyjoYKuPmE0PIYLM!/b/dFQBAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>酒店</text>
+  </navigator>
+ <navigator class='ban-item flex-item' url='/pages/hotel/hotel?title=旅游列表&id=2'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/6KzKsRAEF0pOH3tIahl3phSRQW2S8rXnc58.HkDjJ4Y!/b/dMMAAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>旅游</text>
+  </navigator>
+  <navigator class='ban-item flex-item' url='/pages/hotel/hotel?title=酒店列表'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/SVm7d.uop0GT8tsO7epnA8LB0YX0C0iilfhwRcW*rLM!/b/dL8AAAAAAAAA&bo=tACCAAAAAAADBxQ!&rf=viewer_4'></image>
+        <text>机票</text>
+  </navigator>
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/Z4WhyKqboNJ6yhRrGqf2vC9XumqnExzyzMb3gX5.NZ8!/b/dL4AAAAAAAAA&bo=tACCAAAAAAADBxQ!&rf=viewer_4'></image>
+        <text>火车票</text>
+  </navigator>
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/z*KcJxkyLebPJl.PMlzUEgH7ssp4mdg8RpYJ6PbXwHQ!/b/dL8AAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>汽车票</text>
+  </navigator>
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/Jr2FgRE56gVCUm3XmGhwBrzMPCx*fAIWTi1SNsCJddE!/b/dFQBAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>专车</text>
+  </navigator>
+ 
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/wivvI9OL8B8RhmPhSUNnDDfc74DTvlxRvbi9JjaqUuE!/b/dDQBAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>景点·门票</text>
+  </navigator>
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/3GO1s3dtOLMP8aAXQjOnXD9dcn5Qh4qpB5zON.59IcA!/b/dDcBAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>攻略</text>
+  </navigator>
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/xEsKjzRdMMTZy7InB5p.wmvSZoywPohPzAKWcDEO*ic!/b/dMEAAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>亲自年票</text>
+  </navigator>
+  <navigator class='ban-item flex-item'>
+        <image src='http://m.qpic.cn/psb?/V13X8k4s0tRigN/94dKLIsFwN3yI1mTK5*AHj2PNdvGujoIz5vInk06Z3Y!/b/dL8AAAAAAAAA&bo=tACCAAAAAAADFwQ!&rf=viewer_4'></image>
+        <text>客栈·民宿</text>
+  </navigator>
+</view>
+<view class='slider'>
+    <swiper indicator-dots autoplay interval="2500" duration="1000" circular>
+        <swiper-item wx:for="{{ sliderList }}" wx:key="id" >
+            <image src="{{ item.image }}" lazy-load />
+        </swiper-item>
+    </swiper>
+</view>
+
+<view class='tool'>
+    <text class="title-text">小工具</text>
+    <view class="tool-box flex-box">
+      <view class="tool-item flex-item" wx:for="{{ toolList }}" wx:key="id">
+        <image src="{{ item.image }}" lazy-load />
+        <text>{{ item.text }}</text>
+      </view>
+    </view>
+</view>
+
+<view class="low">
+     <text class="title-text">低价专区</text>
+     <view class="flex-box">
+       <navigator class="low-item">
+         <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/bmUNbTgCPIk.Nl.hstHqCkZwFNe2HoZh7hlcnx9riQo!/b/dLgAAAAAAAAA&bo=OwEiAQAAAAADBzs!&rf=viewer_4" lazy-load />
+       </navigator>
+       <navigator class="low-item">
+         <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/EsUbreBUHk.gSMn98IuDPXTgxotcZy9kPM4DdssrobA!/b/dD4BAAAAAAAA&bo=OwEiAQAAAAADFys!&rf=viewer_4" lazy-load />
+       </navigator>
+       <navigator class="low-item">
+         <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/O*V5QV8zR5xa5w.YyONl2B*x5diP0XGk2.yOcYm3cN0!/b/dMUAAAAAAAAA&bo=OwEiAQAAAAADFys!&rf=viewer_4" lazy-load />
+       </navigator>
+     </view>
+</view>
+
+<view class="activ">
+  <navigator>
+  <image src="https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/ebf7306335a5e060dbbfe42b8e8ede9f.jpg_945x288_da043916.jpg" lazy-load />
+  </navigator>
+</view>
+  <image src="http://m.qpic.cn/psb?/V13X8k4s0tRigN/9IlntzxmCBd35u0HfexcNi0tJ*I7P*jjGrEXF49.0B4!/b/dL8AAAAAAAAA&bo=rgGuAQAAAAADByI!&rf=viewer_4" lazy-load class="code" />

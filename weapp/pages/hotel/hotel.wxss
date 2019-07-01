@@ -1,0 +1,89 @@
+.page{
+  background-color: #EDF2F5;
+}
+.list{
+  width: 100%;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #FFF;
+}
+.hotel{
+  padding: 20rpx 60rpx 20rpx 10rpx;
+}
+.list-img{
+  width: 30%;
+}
+.hotel .list-img{
+   height: 200rpx;
+}
+.list-info{
+  width: 70%;
+  padding: 0 15rpx;
+  display:flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #bbb;
+  line-height: 15px;
+  position: relative;
+}
+.list-info>text{
+  margin-bottom: 10rpx;
+}
+.list-title{
+  font-size: 18px;
+  color: #000;
+ }
+.list-confirm{
+  border: 1rpx solid #3CAF50;
+  border-radius: 2px;
+  width: 83rpx;
+}
+.blue{
+  color: #00bcd4;
+  font-size: 16PX;
+}
+.green{
+  color: #3CAF50;
+  font-size: 10px;
+}
+.list-warn{
+  background-color: #FF5B59;
+  color: #FFF;
+  font-size: 10px;
+  transform:skew(-20deg); 
+  border-radius: 5px;
+  padding: 5rpx 10rpx;
+  width: 120rpx;
+  position: absolute;
+  bottom: 40rpx;
+  right: -35rpx;
+  }
+  .hotel .list-price{
+    position: absolute;
+    bottom: 0;
+    right: -10rpx;
+  }
+  .money{
+    font-size: 10px;  
+    color: #FF5B59;
+  }
+  .num{
+    font-size: 18px;  
+    color: #FF5B59;
+  }
+  /* 旅游模块 */
+  .tour {
+    padding: 20rpx 5rpx 20rpx 10rpx;
+    position: relative;
+  }
+  .tour .list-title{
+    font-weight: bold;
+    margin-bottom: 15rpx;
+  }
+  .tour .list-img{
+    height: 230rpx;
+  }
+  .tour .list-mark{
+    margin-bottom: 15rpx;
+  }

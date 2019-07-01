@@ -1,0 +1,25 @@
+<view class="login while">
+  <image src='/assets/images/login.png' class="head" />
+  <navigator>登录/注册</navigator>
+</view>
+<view class='cell while'>
+    <navigator class='cell-item arrow order'>
+        <text>全部订单</text>
+        <text class="more">查看全部订单</text>
+    </navigator>
+    <navigator class='cell-item arrow'>
+        <text>会员中心</text>
+    </navigator>
+    <navigator class='cell-item arrow'>
+        <text>优惠券</text>
+    </navigator>
+    <navigator class='cell-item arrow'>
+        <text>常用旅客</text>
+    </navigator>
+    <navigator class='cell-item arrow'>
+        <text>联系客服</text>
+    </navigator>
+    <navigator class='cell-item '>
+        <text>退出登录</text>
+    </navigator>
+</view>
